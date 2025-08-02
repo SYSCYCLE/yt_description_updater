@@ -8,7 +8,7 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3000;
 
-const VIDEO_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+const VIDEO_URL = 'https://youtu.be/tydGAb6HCHA?feature=shared';
 
 const CHECK_INTERVAL = 60000; 
 
