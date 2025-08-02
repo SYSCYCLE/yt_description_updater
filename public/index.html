@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canlı YouTube Açıklama Takibi</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            padding: 20px; 
+            background-color: #121212; 
+            color: #e0e0e0; 
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 { 
+            border-bottom: 2px solid #3a3a3a; 
+            padding-bottom: 10px;
+            color: #ffffff;
+        }
+        #status { 
+            font-style: italic; 
+            color: #aaa; 
+            background-color: #222;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        #descriptionDisplay { 
+            margin-top: 15px; 
+            padding: 15px; 
+            border: 1px solid #3a3a3a; 
+            background-color: #1e1e1e; 
+            white-space: pre-wrap; /* Satır sonlarını ve boşlukları korur */
+            min-height: 200px;
+            line-height: 1.6;
+            border-radius: 5px;
+            font-size: 1em;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Canlı YouTube Video Açıklama Takibi</h1>
+        
+        <div id="status">Sunucuya bağlanılıyor...</div>
+        
+        <h3>Video Açıklaması:</h3>
+        <pre id="descriptionDisplay">...</pre>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
