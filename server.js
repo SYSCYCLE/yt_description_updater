@@ -56,8 +56,8 @@ async function fetchAndCheckDescription() {
         });
         
         const $ = cheerio.load(data);
-        
-        const newDescription = $('#description-inner #description yt-formatted-string').text().trim();
+
+        const newDescription = $('#description-inline-expander .content').text().trim();
 
         if (!newDescription) {
             console.warn('Açıklama metni bulunamadı. YouTube HTML yapısı değişmiş olabilir.');
